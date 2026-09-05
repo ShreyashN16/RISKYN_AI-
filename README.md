@@ -164,23 +164,7 @@ Open **http://127.0.0.1:8000**
 
 No `.env` or API keys are required — everything runs on synthetic data generated at startup.
 
----
 
-## Environment Variables
-
-All optional — the app runs fully self-contained without any of these:
-
-| Variable | Default | Description |
-|---|---|---|
-| `PORT` | `8000` | Server port |
-| `GEMINI_API_KEY` | — | Google Gemini API key for LLM-powered reasoning |
-| `GROQ_API_KEY` | — | Groq API key for LLM-powered reasoning |
-| `ANTHROPIC_API_KEY` | — | Anthropic Claude API key for LLM-powered reasoning |
-| `ADMIN_TOKEN` | — | If set, gates `/api/config/keys` behind `X-Admin-Token` header |
-| `PUBLIC_DEMO_MODE` | `false` | When `true`, disables `/api/config/keys` and `/api/db/reset` for safe public hosting |
-| `ALLOWED_ORIGINS` | `http://localhost:8000,...` | Comma-separated CORS origins |
-
----
 
 ## Running Tests
 
