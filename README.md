@@ -202,18 +202,7 @@ Tests cover: model training & evaluation, API security, network intelligence, LL
 
 ---
 
-## Demo Script (7 minutes)
-
-See [DEMO_SCRIPT.md](DEMO_SCRIPT.md) for a complete, timed walkthrough covering:
-
-1. **Landing Page** — philosophy and stat strip
-2. **Live Feed** — real-time scoring with signal breakdown
-3. **Abuse Radar** — mule ring detection with topological visualization
-4. **Model Metrics** — held-out evaluation with PR curve and cost simulator
-5. **Policy Gate** — enforced bounded authority guardrails
-6. **Evidence Responder** — read-only chargeback documentation
-7. **AI Investigator** — grounded multi-LLM chat
-
+=
 ---
 
 ## Tech Stack
