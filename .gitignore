@@ -1,0 +1,30 @@
+# --- Environment & secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+.venv/
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Database ---
+*.db
+backend/riskflow.db
+
+# --- Artifacts & scratch ---
+backend/artifacts/
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Node (if any) ---
+node_modules/
+
+# --- Logs ---
+*.log
